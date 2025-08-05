@@ -1,0 +1,6 @@
+Aplikasi inventori dengan PHP native ini dirancang untuk memudahkan pengelolaan data produk dalam suatu perusahaan atau toko. Aplikasi ini memungkinkan pengguna untuk menambah, mengedit, dan menghapus data produk, termasuk nama produk, kategori, harga, dan jumlah stok. Selain itu, aplikasi ini dilengkapi dengan fitur manajemen pengguna dan tampilan dashboard untuk memberikan gambaran umum mengenai status inventori saat ini. Dengan antarmuka yang responsif dan penggunaan DataTables, aplikasi ini memberikan pengalaman pengguna yang intuitif dan efisien dalam mengelola inventori. Semua fungsionalitas ini dibangun menggunakan PHP native tanpa framework tambahan, sehingga mudah untuk disesuaikan dan diimplementasikan sesuai kebutuhan spesifik.
+
+screenshoot 
+![Inventory Screenshot](https://raw.githubusercontent.com/ardiandp/native-inventori/refs/heads/main/screenshoot/1.png)
+
+![Inventory Screenshot](https://raw.githubusercontent.com/ardiandp/native-inventori/refs/heads/main/screenshoot/2.png)

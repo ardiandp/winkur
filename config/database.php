@@ -1,11 +1,16 @@
 <?php
-$host = 'localhost';
-$db   = 'winkur';
-$user = 'dev';
-$pass = 'terserah';
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "winkur";
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-if (!$conn) {
-    die("Koneksi gagal: " . mysqli_connect_error());
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
+//echo "Connected successfully";
+?>
+
